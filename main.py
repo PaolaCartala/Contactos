@@ -76,6 +76,7 @@ def agregar_contacto():
 
             # muestra un mensaje de exito
             print("\nContacto creado correctamente\n")
+            archivo.close()
     else: print("Ese contacto ya existe") # valida para que no reescriba
     # reinicia la app despues de agregar o no
     app()
@@ -101,6 +102,7 @@ def editar_contacto():
 
             # muestra mensaje de exito
             print("\nContacto modificado correctamente \n")
+            archivo.close()
         # renombra el archivo si se cambió el nombre del contacto
         os.rename(CARPETA + nombre_anterior + EXTENSION, CARPETA + nombre_contacto + EXTENSION) # metodo rename, primer argumento es el archivo existente y el segundo es el nombre nuevo del contacto
     else: # si la variable existe es False, imprime un aviso
@@ -122,6 +124,7 @@ def mostrar_contactos():
             for i in contacto:
                 print(i.rstrip()) # rstrip elimina los espacios en blanco
             print("\n") # separa cada contacto con un salto de linea
+            contacto.close()
 
 # --- Buscar contacto ---
 def buscar_contacto():
@@ -133,6 +136,7 @@ def buscar_contacto():
             for i in contacto: # con el mismo código que usa al editar, recorre la carpeta
                 print(i.rstrip())
             print("\n")
+            contacto.close()
     except IOError: # si el contacto no existe, mostrará un mensaje
         print("El contacto no existe\n")
 
