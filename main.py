@@ -62,7 +62,7 @@ def agregar_contacto():
     nombre_contacto = input("Nombre del Contacto:\n").capitalize() # utiliza el método capitalize() para poner en mayúscula la primera letra de cada palabra ingresada, por si el usuario las ingresa con minúscula
     existe = os.path.isfile(CARPETA + nombre_contacto + EXTENSION) # valida si el archivo ya existe antes de crearlo para que no se reescriba
     if not existe:
-        with open(CARPETA + nombre_contacto + EXTENSION, "w") as archivo: # abre el archivo con permiso de escritura
+        with open(CARPETA + nombre_contacto + EXTENSION, "w", encoding="utf8") as archivo: # abre el archivo con permiso de escritura
             telefono_contacto = int(input("Agrega el teléfono del contacto:\n"))
             categoria_contacto = input("Agrega la categoría del contacto:\n").capitalize()
 
@@ -85,7 +85,7 @@ def editar_contacto():
     nombre_anterior = input("Nombre del contacto que desea editar: \n")
     existe = existe_contacto(nombre_anterior) # la función existe_contacto() retornará True o False
     if existe: # si existe es True, ingresará al if
-        with open(CARPETA + nombre_anterior + EXTENSION, "w") as archivo:
+        with open(CARPETA + nombre_anterior + EXTENSION, "w", encoding="utf8") as archivo:
             # solicita los datos nuevos y los guarda en las variables
             nombre_contacto = input("Agrega el nuevo nombre: \n")
             telefono_contacto = input("Agrega el nuevo teléfono:\n")
@@ -119,7 +119,7 @@ def mostrar_contactos():
     archivos_txt = [i for i in archivos if i.endswith(EXTENSION)] # valida que solamente los archivos que terminen con .txt sean utilizados, aquí se pondría la consulta SQL en caso de utilizar una base de datos
     print("--- Contactos ---\n")
     for archivo in archivos_txt: # recorre cada archivo validado como txt
-        with open(CARPETA + archivo) as contacto:
+        with open(CARPETA + archivo, encoding="utf8") as contacto:
             for i in contacto:
                 print(i.rstrip()) # rstrip elimina los espacios en blanco
             print("\n") # separa cada contacto con un salto de linea
@@ -129,7 +129,7 @@ def buscar_contacto():
     nombre = input("Seleccione el contacto que desea buscar: \n")
     # excepciones, para que el programa no caiga cuando se busca un contacto que no existe
     try: # intenta abrir el archivo con el nombre que ingresa el usuario
-        with open(CARPETA + nombre + EXTENSION) as contacto:
+        with open(CARPETA + nombre + EXTENSION, encoding="utf8") as contacto:
             print("\nInformación del contacto: \n")
             for i in contacto: # con el mismo código que usa al editar, recorre la carpeta
                 print(i.rstrip())
