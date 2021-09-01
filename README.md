@@ -17,23 +17,23 @@ El programa muestra un menú donde el usuario elige con un número que opción q
 
 Para agregar un nuevo contacto se elige el número 1 y se determina el nombre, número y categoría del contacto, que se guardará como texto plano en la carpeta Contactos, la cual se creará si no existe:
 
-[1- Agregar] [Ruta de la imagen actual (img/agregar.jpg)]
+![1- Agregar](img/agregar.jpg)
 
 Para editar el contacto, el programa pedirá un nombre de contacto y lo buscará en la carpeta, si el contacto existe pedirá el nuevo nombre, teléfono y categoría:
 
-![2- Editar](https://ibb.co/60WB45h)
+![2- Editar](img/editar.jpg)
 
 La opción de ver contactos mostrará todos los contactos que el usuario tiene guardados hasta el momento:
 
-![3- Ver](https://ibb.co/KbJKDt7)
+![3- Ver](img/ver.jpg)
 
 La opción buscar pedirá el nombre del contacto que se desea mostrar e imprimirá su información:
 
-![4- Buscar](https://ibb.co/ZHfqggp)
+![4- Buscar](img/buscar.jpg)
 
 A su vez, la opción eliminar pedirá el nombre del contacto que se quiere eliminar y lo hará, en este caso el contacto no existía:
 
-![5- Eliminar](https://ibb.co/K64J83K)
+![5- Eliminar](img/eliminar.jpg)
 
 Por último, la opción 6 permite salir del programa.
 
