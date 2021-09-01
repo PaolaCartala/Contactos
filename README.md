@@ -17,7 +17,7 @@ El programa muestra un menú donde el usuario elige con un número que opción q
 
 Para agregar un nuevo contacto se elige el número 1 y se determina el nombre, número y categoría del contacto, que se guardará como texto plano en la carpeta Contactos, la cual se creará si no existe:
 
-[1- Agregar] [Ruta de la imagen actual (img / agregar.jpg)]
+[1- Agregar] [Ruta de la imagen actual (img/agregar.jpg)]
 
 Para editar el contacto, el programa pedirá un nombre de contacto y lo buscará en la carpeta, si el contacto existe pedirá el nuevo nombre, teléfono y categoría:
 
