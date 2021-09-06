@@ -49,7 +49,7 @@ def app():
 # --- Crea el directorio donde se guardarán los contactos ---
 def crear_directorio():
     """
-    Verifica si la carpeta Contactos fue creada anteriormente, sino la crea
+    Verifica si la carpeta Contactos fue creada anteriormente, sino la crea.
     """
     if not os.path.exists(CARPETA):
         os.makedirs(CARPETA)
@@ -90,7 +90,7 @@ def agregar_contacto():
 # --- U UPDATE / Editar contactos ---
 def editar_contacto():
     """
-    Verifica si el contacto existe y lo edita instanciando nuevamente la Clase Contacto, luego cambia el nombre del archivo. Si no existe, muestra un mensaje de aviso
+    Verifica si el contacto existe y lo edita instanciando nuevamente la Clase Contacto, luego cambia el nombre del archivo. Si no existe, muestra un mensaje de aviso.
     """
     nombre_anterior = input("Nombre del contacto que desea editar: \n")
     existe = existe_contacto(nombre_anterior)
@@ -116,14 +116,14 @@ def editar_contacto():
 
 def existe_contacto(nombre):
     """
-    Verifica si el archivo con el nombre de contacto existe en la carpeta
+    Verifica si el archivo con el nombre de contacto existe en la carpeta.
     """
     return os.path.isfile(CARPETA + nombre + EXTENSION)
 
 # --- R READ / Mostrar contactos ---
 def mostrar_contactos():
     """
-    Selecciona todos los archivos de la carpeta, como se haría con una base de datos, y los guarda en la variable archivos, luego recorre cada archivo validado como .txt y lo muestra
+    Selecciona todos los archivos de la carpeta, como se haría con una base de datos, y los guarda en la variable archivos, luego recorre cada archivo validado como .txt y lo muestra.
     """
     archivos = os.listdir(CARPETA)
     archivos_txt = [i for i in archivos if i.endswith(EXTENSION)]
