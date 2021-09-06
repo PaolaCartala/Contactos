@@ -53,8 +53,16 @@ Este repositorio está abierto a contribuciones, no dudes en hacerlo!
 
 ## Autores y agradecimientos
 
+<<<<<<< HEAD
 Este código fue originalmente escrito por Juan Pablo De la torre Valdez de https://codigoconjuan.com/ a través de [Udemy](https://www.udemy.com/).
+=======
+Este código fue originalmente escrito por Juan Pablo De la torre Valdez de https://codigoconjuan.com/ a través de [Udemy](https://www.udemy.com/), el cual modifiqué ligeramente.
+>>>>>>> c6f0b1cf6f7994f13f8a747fe5b8570fe5863585
 
 ## Licencia
 
 [MIT](https://choosealicense.com/licenses/mit/)
+<<<<<<< HEAD
+=======
+
+>>>>>>> c6f0b1cf6f7994f13f8a747fe5b8570fe5863585
