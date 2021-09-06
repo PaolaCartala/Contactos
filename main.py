@@ -26,7 +26,6 @@ def app():
     preguntar = True
     while preguntar:
         opcion = int(input("Seleccione una opción: \n")) 
-        # -- Ejecutar opciones --
         if opcion == 1:
             agregar_contacto()
             preguntar = False
