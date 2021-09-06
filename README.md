@@ -1,11 +1,14 @@
 # CRUD Contactos del teléfono
 
 [![Gitter](https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=darkgreen)](https://www.python.org/)
-[![Gitter](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/paola-cartala/)
 
 ## Descripción
 
 Esta aplicación simula el manejo de contactos en un teléfono usando el lenguaje Python, creando contactos nuevos, mostrándolos, modificándolos y eliminándolos cuando se necesite.
+
+## Tecnologías
+
+[Python](https://www.python.org/) es un lenguaje de programación potente y fácil de aprender. Tiene estructuras de datos de alto nivel eficientes y un simple pero efectivo sistema de programación orientado a objetos. La elegante sintaxis de Python y su tipado dinámico, junto a su naturaleza interpretada lo convierten en un lenguaje ideal para scripting y desarrollo rápido de aplicaciones en muchas áreas, para la mayoría de plataformas.
 
 ## Instalación
 
@@ -53,16 +56,8 @@ Este repositorio está abierto a contribuciones, no dudes en hacerlo!
 
 ## Autores y agradecimientos
 
-<<<<<<< HEAD
-Este código fue originalmente escrito por Juan Pablo De la torre Valdez de https://codigoconjuan.com/ a través de [Udemy](https://www.udemy.com/).
-=======
 Este código fue originalmente escrito por Juan Pablo De la torre Valdez de https://codigoconjuan.com/ a través de [Udemy](https://www.udemy.com/), el cual modifiqué ligeramente.
->>>>>>> c6f0b1cf6f7994f13f8a747fe5b8570fe5863585
 
 ## Licencia
 
 [MIT](https://choosealicense.com/licenses/mit/)
-<<<<<<< HEAD
-=======
-
->>>>>>> c6f0b1cf6f7994f13f8a747fe5b8570fe5863585
