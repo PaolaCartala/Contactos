@@ -53,7 +53,7 @@ Este repositorio está abierto a contribuciones, no dudes en hacerlo!
 
 ## Autores y agradecimientos
 
-Este código fue originalmente escrito por Juan Pablo De la torre Valdez de https://codigoconjuan.com/ a través de [Udemy](https://www.udemy.com/).
+Este código fue originalmente escrito por Juan Pablo De la torre Valdez de https://codigoconjuan.com/ a través de [Udemy](https://www.udemy.com/), el cual modifiqué ligeramente.
 
 ## Licencia
 
